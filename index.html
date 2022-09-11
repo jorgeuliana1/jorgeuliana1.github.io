@@ -14,14 +14,15 @@
   <body style="background-color: #20232b;">
     <!-- Bootstrap navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #17274f;">
-        <a class="navbar-brand">Hello! I am Jorge</a>
+        <a class="navbar-brand" style="color: white;">Jorge Uliana [WIP]</a>
+        <!--
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav">
             <li class="nav-item active">
-              <a class="nav-link" href="#about">About Jorge</a>
+              <a class="nav-link" href="#about">About me</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#skill">Skills</a>
@@ -37,20 +38,54 @@
             </li>
           </ul>
         </div>
+        -->
     </nav>
 
     <!-- Bootstrap's grids -->
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
-            <div class="col" style="background-color: #343845" id="about">
+            <div class="col-lg-2 no-float" style="background-color: #343845; border-radius: 5px; margin-left: 5px; margin-right: 5px; margin-top: 5px;" id="about">
               <!-- About me -->
               <img src="static/imgs/jorgeuliana.jpg" alt="Thats's me, Jorge" id="myphoto">
+              <center id="whereami">
+                Undegrad Student @ UFES
+              </center>
+              <p>
+                <center>
+                    Hello, I am Jorge. I am currently an undergrad student in Computer Engineering.
+                </center>
+              </p>
             </div>
-            <div class="col">
-              2 of 3
-            </div>
-            <div class="col">
-              3 of 3
+            <div class="col-lg-8 no-float">
+              <h1>
+                Skills
+              </h1>
+              <p>
+                I have some experience with virtualization of applications through Docker and Docker Compose.
+                Most of my work revolves around programming image processing scripts and more advanced applications using Python or C++,
+                usually with the support of Python and OpenCV. I have also developed some computer vision analysis applications
+                using Open3D and PointCloudLibrary. I have shallow experience with C++-Python integration using PyBind11.
+                <br>
+                Although most of my work involves pure or classical computer vision aspects, I also have some understandment of neural networks
+                and, more specifically, deep learning. Having implemented a few basic networks using PyTorch and trained some implementations,
+                such as Meta's Detectron2.
+                <br>
+                Besides the tools I have used, I also have basic knowledge on computer science and computer vision fundamental topics.
+              </p>
+              <h1>
+                Publications
+              </h1>
+              <h2>
+                (In portuguese)
+              </h2>
+              <ul>
+                <li>
+                  Oliari, M.A.M., <b>Uliana, J.J.M.</b>, Maia, B.M.S., Silva, M.M. da, Gama, S.D., Paiva, T.T., Gomes, R.L., Costa, P.D. e Guimarães, R.L. 2021. Coletânea de uma Década de Ensino de Programação para Estudantes da Rede Pública no Projeto Introcomp. Revista Brasileira de Informática na Educação. 29, (out. 2021), 1202–1231. DOI: <a href="https://doi.org/10.5753/rbie.2021.2125">https://doi.org/10.5753/rbie.2021.2125</a>.
+                </li>
+                <li>
+                  Oliari, M., <b>Uliana, J.</b>, Silva, M., Maia, B., Paiva, T., Gomes, R., Costa, P., & Guimarães, R. (2021). Introcomp: Reflexões de uma Década de Desafios e Conquistas no Ensino de Programação para a Rede Pública de Ensino. In Anais do Simpósio Brasileiro de Educação em Computação, (pp. 173-182). Porto Alegre: SBC. doi: <a href="https://doi.org/10.5753/educomp.2021.14483">https://doi.org/10.5753/educomp.2021.14483</a>.
+                </li>
+              </ul>
             </div>
         </div>
     </div>
